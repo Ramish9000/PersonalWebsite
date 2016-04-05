@@ -1,3 +1,5 @@
+html, body { width: 100%; }
+
 @font-face {
     font-family: moon;
     src: url(./fonts/moon_flower/MF.ttf) format('truetype');
@@ -6,6 +8,11 @@
 @font-face {
     font-family: chunkie;
     src: url(./fonts/Exo2-Bold.otf) format('Opentype');
+  }
+
+@font-face {
+    font-family: curly;
+    src: url(./fonts/Quirlycues.ttf) format('truetype');
   }
 
 #first-section-div {
@@ -48,7 +55,17 @@ width: 200px;
 }
 
 #about_left_div {
+  /*margin: 10px 10px;*/
   width: 50%;
+  height: 100%;
   float: left;
   background-color: #f7484e;
+}
+
+#about_caption {
+  color: white;
+  font-family: curly;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50%;
 }
