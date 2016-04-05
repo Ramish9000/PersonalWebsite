@@ -8,20 +8,47 @@
     src: url(./fonts/Exo2-Bold.otf) format('Opentype');
   }
 
+#first-section-div {
+  background-color: #252625; 
+}
+
 #name_div {
   text-align: center;
-  position: relative;
-  float: center
+  padding: 40px;
+  /*position: relative;*/
+  /*float: center*/
 }
 
 #name {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: moon;
   color: white;
   font-size: 150px;
 }
 
 #title {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: chunkie;
-  font-size: 25px;
+  font-size: 30px;
+  /*color: #f7484e !important*/
   color: #f7484e !important
+}
+
+#gif {
+width: 200px;
+}
+
+
+#about_div {
+  /*position: absolute; */
+  background-color: #252625; 
+  /*margin: 0 8px;*/
+}
+
+#about_left_div {
+  width: 50%;
+  float: left;
+  background-color: #f7484e;
 }

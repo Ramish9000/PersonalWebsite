@@ -3,27 +3,62 @@
 <head>
   <title></title>
   <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="theme-color" content="#ffffff">
-  <script type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0"> -->
+  <!-- <meta name="msapplication-TileColor" content="#ffffff"> -->
+  <!-- <meta name="theme-color" content="#ffffff"> -->
+  <!-- <script type="text/javascript" href="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script> -->
+  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
+  <link rel="stylesheet" type="text/css" src="./css/fullPage.js/jquery.fullPage.css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="./css/fullPage.js/vendors/jquery.easings.min.js"></script>
+  <script type="text/javascript" src="./css/fullPage.js/vendors/jquery.slimscroll.min.js"></script>
+  <script type="text/javascript" src="./css/fullPage.js/jquery.fullPage.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage();
+    });
+  </script>
   
   
 </head>
 <body>
 
-<div id="first-section-div" style=" position: absolute; background-color: #252625; width: 1250px;
-  height: 600px; margin: 0 8px;">
+  <div id="fullpage">
+    <!-- #1 -->
+    <div class="section" id="first-section-div">
 
-  <div id="name_div">
-    <h5 id="title">WEB DEVELOPER</h5>
-    <h3 id="name">RAMISH MIAN</h3>
-   
+      <div id="name_div">
+        <p id="title">WEB DEVELOPER</p>     
+        <img src="./images/pent.png">
+        <p id="name">RAMISH MIAN</p>
+
+      </div>
+    </div>
+
+    <!-- #2 -->
+    <div class="section" id="about_div">
+
+      <div id="about_left_div">
+        <h5 id="caption">ABOUT ME</h5>
+      </div>
+      
+      <div id="about_right_div">
+        HI
+      </div>
+
+
+    </div>
+
+    <div class="section">Some section</div>
+    <div class="section">Some section</div>
   </div>
 
-  
-</div>
+  <!-- #1 -->
+
+
+  <!-- #2 -->
+
 
 </body>
 </html>
