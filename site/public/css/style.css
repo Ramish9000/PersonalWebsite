@@ -1,7 +1,30 @@
 #body {
-	background-color: #9AB87A;
+	background-color: #e4e4e4;
+	/*background-image: url(../images/bg_2.jpg);*/
+	/*background-size: 1200px*/
 }
 
-#name_caption, #coming_text {
+#First_info_div {
+	width: 800px;
+	margin: 0 auto;
+	border: 2px solid white;
+	/*border-style: white;*/
+	background-color: white;
+	/*opacity: 0.7;*/
+	padding: 10px;
 	text-align: center;
+	position: absolute;
+}
+
+#First_info_div > h4 {
+	color: white;
+
+}
+
+#img_div {
+	float: left;
+}
+
+#name_div {
+	float: left;
 }
