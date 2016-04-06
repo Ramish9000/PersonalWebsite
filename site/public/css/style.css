@@ -69,3 +69,68 @@ width: 200px;
   text-align: center;
   margin-top: 50%;
 }
+
+#about_right_div {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#inner_about_div {
+  padding: 30px;
+}
+
+#caption1 {
+  font-family: 'ubuntu', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+#how_div {
+background-color: #f7484e;
+}
+
+#caption2 {
+  font-family: 'ubuntu', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+/*#projects_div {
+  background-color: #252625;
+}*/
+
+#projects_left_div {
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: #252625;
+}
+
+#projects_caption{
+  color: white;
+  font-family: curly;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50%;
+}
+
+#projects_right_div{
+  width: 50%;
+  height: 100%;
+  float: left;
+  background-color: white;
+}
+
+#inner_projects_div {
+  padding: 30px;
+}
+
+#inner_projects_div > img{
+  width: 100%;
+  height: 30%;
+}
+
+#BSS_img {
+
+}
