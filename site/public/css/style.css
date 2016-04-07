@@ -132,6 +132,21 @@ background-color: #f7484e;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SLIDERS*/
+
 #gallery{
   position:relative;
   margin: 0 auto;
@@ -161,6 +176,10 @@ background-color: #f7484e;
   position:relative;
   float:left;
   padding-right: 26px;
+  margin-right: 37px;
+  margin-top: 24px;
+  width:1140px;
+  height:350px;
 }
 
 #div1 {
@@ -170,13 +189,13 @@ background-color: #f7484e;
   height:350px;
 }
 
-#div2 {
+/*#div2 {
   padding-left: 26px;
   padding-right: 26px;
   width: 680px;
   height: 340px;
-}
-
+}*/
+/*
 #div3 {
   padding-left: 22px;
   padding-right: 50px;
@@ -188,7 +207,7 @@ background-color: #f7484e;
   width: 655px;
   height: 340px;
   float: left;
-}
+}*/
 
 #web_0 {
   width: 650px;
