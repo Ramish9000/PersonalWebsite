@@ -96,41 +96,131 @@ background-color: #f7484e;
   color: white;
 }
 
-/*#projects_div {
-  background-color: #252625;
-}*/
 
-#projects_left_div {
-  width: 50%;
-  height: 100%;
-  float: left;
+
+
+
+
+
+
+
+.projects_div {
   background-color: #252625;
+}
+
+.projects_left_div {
+  margin-top: 20px;
+  margin-left: 35%;
+  /*position: absolute;*/
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  /*height: 100%;*/
+  /*float: left;*/
+  /*background-color: #f7484e*/
 }
 
 #projects_caption{
+  margin: 0px 0px;
   color: white;
   font-family: curly;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
-  margin-top: 50%;
+  
 }
 
-#projects_right_div{
-  width: 50%;
-  height: 100%;
+
+
+
+#gallery{
+  margin-left: 20px;
+  margin-bottom: 250px;
+  margin-right: 20px;
+  margin-top: 20px;
+  position:relative;
+  margin: 0 auto;
+  overflow:hidden;
+  width:700px;
+  height:500px; /* +30 = space for buttons */
+  /*text-align:center;*/
+  z-index: 8;
+
+}
+
+#mac {
+  width: 700px; 
+  height: 500px; 
+  z-index: 10; 
+  position: absolute;
+  margin: 0 auto;
+}
+
+#slider{
+  margin-left: 26px;
+  position:absolute;
+  left:0;
+  width: 650px;
+  height:360px;  
+  text-align:left; /* to reset text inside slides */
+}
+#slider > div {
+  margin-top: 22px;
+
+  /*margin-bottom: 500px;*/
+  position:relative;
+  float:left;
+
+}
+
+#div1 {
+  width:650px;
+  height:360px;
+}
+
+#div2 {
+  padding-left: 26px;
+  padding-right: 26px;
+  width: 680px;
+  height: 340px;
+}
+
+#div3 {
+  padding-left: 22px;
+  padding-right: 50px;
+  width: 640px;
+  height: 340px;
+}
+
+#div4 {
+  width: 655px;
+  height: 340px;
   float: left;
-  background-color: white;
 }
 
-#inner_projects_div {
-  padding: 30px;
+#web_1 {
+  width: 100%; 
 }
 
-#inner_projects_div > img{
-  width: 100%;
-  height: 30%;
+#prev {
+  /*background-color: blue;*/
+  /*display:inline-block;*/
+  position:relative;
+  top:380px;
+  left: 300px;
+  cursor:pointer;
+  padding:5px;
+  /*margin-left: 400px;*/
+  z-index: 12;
 }
 
-#BSS_img {
-
+#next{
+  /*background-color: blue;*/
+  /*display:inline-block;*/
+  position:relative;
+  top:380px;
+  left: 340px;
+  cursor:pointer;
+  padding:5px;
+  /*margin-left: 400px;*/
+  z-index: 12;
 }

@@ -19,70 +19,113 @@
     $(document).ready(function() {
       $('#fullpage').fullpage();
     });
+
+    $(function(){
+
+      var $gal = $('#gallery'),
+      $sli = $('#slider'),
+      $box = $('div',$sli),
+            W    = $gal.width(), // 500
+            N    = $box.length,  // 3
+            C    = 0;            // a counter
+
+            $sli.width(W*N);
+
+            $('#prev, #next').click(function(){
+              C = (this.id=='next' ? ++C : --C) <0 ? N-1 : C%N;
+              $sli.stop().animate({left: -C*W },800);
+            }); 
+
+          });
   </script>
-  
-  
-</head>
-<body>
 
-  <div id="fullpage">
-    <!-- #1 -->
-    <div class="section" id="first-section-div">
 
-      <div id="name_div">
-        <p id="title">WEB DEVELOPER</p>     
-        <img src="./images/pent.png">
-        <p id="name">RAMISH MIAN</p>
+      </head>
+      <body>
+
+        <div id="fullpage">
+          <!-- #1 -->
+          <div class="section" id="first-section-div">
+
+            <div id="name_div">
+              <p id="title">WEB DEVELOPER</p>     
+              <img src="./images/pent.png">
+              <p id="name">RAMISH MIAN</p>
+
+            </div>
+          </div>
+
+          <!-- #2 -->
+          <div class="section" id="about_div">
+
+            <div id="about_left_div">
+              <h5 id="about_caption">ABOUT</h5>
+            </div>
+
+            <div id="about_right_div">
+              <div id="inner_about_div">
+                <h6 id="caption1">I'm a Junior Web Developer based in London, UK.</h6>
+                <h7 id="caption2">Over the course of two years I've developed a strong love for coding. I recently spent 12 weeks at General Assembly's Web Development Course where I built my programming knowledge and practiced it with various projects and assignments.</h7>
+              </br>
+              <h7 id="caption2">Having finished the course, I am now seeking employment in an environment that will help me continue to build upon my skills.</h7>
+              <div id="how_div"></div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <!-- #3 -->
+        <div class="section projects_div">
+          <div class="projects_left_div">
+            <h4 id="projects_caption">PROJECTS</h4>
+          </div>
+
+
+
+          
+          
+
+          <div id="gallery">
+            <img src="./images/mac.png" id="mac">
+
+            <!-- <img src="./images/arrows.png" id="next" style="width: 100px; height: 50px;"> -->
+            
+
+            <div id="slider">
+
+              <div id="div1">
+                <img src="./images/BSS.png" id="web_1">
+              </div>
+
+              <div id="div2">
+                <img src="./images/CS_1.png" id="web_1">
+              </div>
+
+              <div id="div3">
+                <img src="./images/jumble.png" id="web_1">
+              </div>
+
+              <div id="div4">
+                <img src="./images/wardrobe.jpg" id="web_1">
+              </div>
+
+            </div> 
+            <img src="./images/arrow_left.png" style="width: 20px;" id="prev">
+            <img src="./images/arrow_right.png" style="width: 20px;" id="next">
+
+          </div>
 
       </div>
-    </div>
 
-    <!-- #2 -->
-    <div class="section" id="about_div">
+      <!-- #4 -->
+      <div class="section">
 
-      <div id="about_left_div">
-        <h5 id="about_caption">ABOUT</h5>
       </div>
 
-      <div id="about_right_div">
-        <div id="inner_about_div">
-          <h6 id="caption1">I'm a Junior Web Developer based in London, UK.</h6>
-          <h7 id="caption2">Over the course of two years I've developed a strong love for coding. I recently spent 12 weeks at General Assembly's Web Development Course where I built my programming knowledge and practiced it with various projects and assignments.</h7>
-        </br>
-        <h7 id="caption2">Having finished the course, I am now seeking employment in an environment that will help me continue to build upon my skills.</h7>
-        <div id="how_div"></div>
-      </div>
     </div>
 
 
-  </div>
-
-
-  <!-- #3 -->
-  <div class="section" id="projects_div">
-
-  <div id="projects_left_div">
-    <h5 id="projects_caption">PROJECTS</h5>
-  </div>
-
-  <div id="projects_right_div">
-    <div id="inner_projects_div">
-      <img src="./images/BSS.png" id="BSS_img">
-      <img src="./images/BSS.png" id="BSS_img">
-      <img src="./images/BSS.png" id="BSS_img">
-      <img src="./images/BSS.png" id="BSS_img">
-    </div>
-  </div>
-
-  </div>
-
-
-
-  <!-- #4 -->
-  <div class="section">Some section</div>
-
-</div>
-
-
-</body>
-</html>
+  </body>
+  </html>
