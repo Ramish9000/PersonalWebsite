@@ -133,18 +133,11 @@ background-color: #f7484e;
 
 
 #gallery{
-  margin-left: 20px;
-  margin-bottom: 250px;
-  margin-right: 20px;
-  margin-top: 20px;
   position:relative;
   margin: 0 auto;
   overflow:hidden;
-  width:700px;
-  height:500px; /* +30 = space for buttons */
-  /*text-align:center;*/
-  z-index: 8;
-
+  width:1200px;
+  height:500px;
 }
 
 #mac {
@@ -156,25 +149,25 @@ background-color: #f7484e;
 }
 
 #slider{
-  margin-left: 26px;
+  padding-left: 26px;
   position:absolute;
   left:0;
   width: 650px;
   height:360px;  
   text-align:left; /* to reset text inside slides */
 }
-#slider > div {
-  margin-top: 22px;
 
-  /*margin-bottom: 500px;*/
+#slider > div {
   position:relative;
   float:left;
-
+  padding-right: 26px;
 }
 
 #div1 {
-  width:650px;
-  height:360px;
+  margin-right: 37px;
+  margin-top: 24px;
+  width:1140px;
+  height:350px;
 }
 
 #div2 {
@@ -197,8 +190,12 @@ background-color: #f7484e;
   float: left;
 }
 
+#web_0 {
+  width: 650px;
+}
+
 #web_1 {
-  width: 100%; 
+  width: 40%; 
 }
 
 #prev {
