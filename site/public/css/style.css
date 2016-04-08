@@ -1,4 +1,4 @@
-html, body { width: 100%; }
+html, body { width: 100%; background-color: #252625}
 
 @font-face {
     font-family: moon;
@@ -43,37 +43,14 @@ html, body { width: 100%; }
   color: #f7484e !important
 }
 
-#gif {
-width: 200px;
-}
-
 
 #about_div {
-  /*position: absolute; */
   background-color: #252625; 
-  /*margin: 0 8px;*/
-}
-
-#about_left_div {
-  /*margin: 10px 10px;*/
-  width: 50%;
-  height: 100%;
-  float: left;
-  background-color: #f7484e;
-}
-
-#about_caption {
-  color: white;
-  font-family: curly;
-  font-size: 50px;
-  text-align: center;
-  margin-top: 50%;
 }
 
 #about_right_div {
   width: 50%;
-  height: 100%;
-  float: left;
+  margin-left: 25%;
 }
 
 #inner_about_div {
@@ -182,59 +159,23 @@ background-color: #f7484e;
   height:350px;
 }
 
-#div1 {
-  margin-right: 37px;
-  margin-top: 24px;
-  width:1140px;
-  height:350px;
-}
-
-/*#div2 {
-  padding-left: 26px;
-  padding-right: 26px;
-  width: 680px;
-  height: 340px;
-}*/
-/*
-#div3 {
-  padding-left: 22px;
-  padding-right: 50px;
-  width: 640px;
-  height: 340px;
-}
-
-#div4 {
-  width: 655px;
-  height: 340px;
-  float: left;
-}*/
-
 #web_0 {
   width: 650px;
 }
 
-#web_1 {
-  width: 40%; 
-}
-
 #prev {
-  /*background-color: blue;*/
-  /*display:inline-block;*/
   position:relative;
-  top:380px;
-  left: 300px;
+  top:365px;
+  left: 250px;
   cursor:pointer;
   padding:5px;
-  /*margin-left: 400px;*/
   z-index: 12;
 }
 
 #next{
-  /*background-color: blue;*/
-  /*display:inline-block;*/
   position:relative;
-  top:380px;
-  left: 340px;
+  top:370px;
+  left: 350px;
   cursor:pointer;
   padding:5px;
   /*margin-left: 400px;*/
