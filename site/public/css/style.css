@@ -181,3 +181,14 @@ background-color: #f7484e;
   /*margin-left: 400px;*/
   z-index: 12;
 }
+
+.fa-twitter, .fa-linkedin-square, .fa-github-alt, .fa-paper-plane-o {
+  font-size: 40px;
+  color: #f7484e;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.fa-twitter {
+  margin-left: 0px !important;
+}
